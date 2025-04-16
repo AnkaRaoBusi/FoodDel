@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff5c5c;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.tagline {
+    font-size: 14px;
+}
+
+/* Home Section */
+.container {
+    padding: 50px;
+}
+
+button {
+    background: #ff5c5c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Login Section */
+.login-container {
+    display: none;
+    padding: 30px;
+}
+
+.login-box {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.toggle-btn {
+    background: #333;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Hide Register Form Initially */
+.hidden {
+    display: none;
+}
+
+/* Carousel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+}
+
+.slide {
+    min-width: 200px;
+    margin: 0 10px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.prev-btn, .next-btn {
+    background: #ff5c5c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background: #e04848;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #ff3366;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.container, .menu-container {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.food-carousel {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.food-item {
+    background: #ffe6e6;
+    padding: 15px;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+}
+
+.cart-btn, .pay-now, .submit-btn {
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.address-form {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ff3366;
+    margin-top: 20px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+.navbar {
+    background: #ff3366;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.food-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.food-list {
+    display: flex;
+    gap: 20px;
+}
+
+.food-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    width: 180px;
+    scroll-snap-align: start;
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.add-cart, .pay-now {
+    background: #ff3366;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.add-cart:hover, .pay-now:hover {
+    background: #ffcc00;
+    color: #333;
+}
+
+.address-form {
+    display: none;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry Quick - Meal Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <img src="Berrylogo.jpg" alt="Berry Quick Logo" class="logo">
+        <h2>🍽️ Berry Quick</h2>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#orders">Orders</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <div class="container" id="home">
+        <h1>Fast & Fresh Meal Delivery 🚀</h1>
+        <p>Order delicious meals and get them delivered to your doorstep!</p>
+        <button onclick="showLogin()">Get Started</button>
+    </div>
+
+    <!-- Login Section -->
+    <div class="login-container" id="loginForm">
+        <h2>Welcome Back!</h2>
+        <input type="email" id="email" placeholder="Email Address">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="menu-container" id="menu">
+        <h2>🍉 Only Fruits</h2>
+        <div class="food-carousel">
+            <div class="food-list">
+                <div class="food-item">
+                    <img src="image1.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image.png" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image3.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image1.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image4.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image1.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image5.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image3.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image1.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image4.webp" alt="Apple">
+                    <h3>Fresh Apple</h3>
+                    <p>$2.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <!-- Add 9 more fruit items similarly -->
+            </div>
+        </div>
+
+        <h2>🥣 Only Oats</h2>
+        <div class="food-carousel">
+            <div class="food-list">
+                <div class="food-item">
+                    <img src="image5.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image.png" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image7.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image6.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image5.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image6.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image7.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image5.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image6.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image7.webp" alt="Oat Bowl">
+                    <h3>Classic Oat Bowl</h3>
+                    <p>$4.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <!-- Add 9 more oat items similarly -->
+            </div>
+        </div>
+
+        <h2>🍓 Oats & Fruits Combo</h2>  
+        <div class="food-carousel">
+            <div class="food-list">
+                <div class="food-item">
+                    <img src="image1.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image10.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image8.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image10.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image8.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image10.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="imag8.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <div class="food-item">
+                    <img src="image7.webp" alt="Combo">
+                    <h3>Berry Oat Delight</h3>
+                    <p>$5.99</p>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+                <!-- Add 9 more combo items similarly -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Orders Section -->
+    <div class="orders-container" id="orders">
+        <h2>📦 Your Orders</h2>
+        <div class="order-list">
+            <p>No orders placed yet.</p>
+        </div>
+        <button class="pay-now" onclick="showAddressForm()">Pay Now</button>
+        <div class="address-form" id="addressForm">
+            <h3>Delivery Address</h3>
+            <input type="text" placeholder="Enter your address">
+            <button>Confirm</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-container" id="contact">
+        <h2>📞 Contact Us</h2>
+        <p>Email: <a href="mailto:support@berryquick.com">support@berryquick.com</a></p>
+        <p>Phone: <a href="tel:+917288928390">+91 7288928390</a></p>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Berry Quick. All Rights Reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
